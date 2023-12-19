@@ -1,7 +1,12 @@
 <script >
+import { store } from '../../store';
 
 export default {
-
+    data() {
+        return {
+            store
+        }
+    }
 }
 </script>
 
@@ -13,10 +18,10 @@ export default {
             </div>
             <ul>
                 <li>
-                    <font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678
+                    <font-awesome-icon icon="fa-solid fa-phone" /> {{ store.contatcs.tel }}
                 </li>
                 <li>
-                    <font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com
+                    <font-awesome-icon icon="fa-solid fa-envelope" /> {{ store.contatcs.email }}
                 </li>
                 <li>
                     <ul class="socials">
@@ -49,7 +54,6 @@ export default {
         justify-content: space-between;
 
         ul {
-            list-style-type: none;
             display: flex;
             align-items: center;
             gap: 30px;

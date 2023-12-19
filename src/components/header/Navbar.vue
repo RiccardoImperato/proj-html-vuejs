@@ -1,25 +1,10 @@
 <script >
+import { store } from '../../store';
 
 export default {
     data() {
         return {
-            options: [
-                {
-                    "name": "home"
-                },
-                {
-                    "name": "about"
-                },
-                {
-                    "name": "services"
-                },
-                {
-                    "name": "pricing"
-                },
-                {
-                    "name": "blog"
-                },
-            ]
+            store,
         }
     }
 
@@ -28,11 +13,11 @@ export default {
 
 <template>
     <div class="box">
-        <div>
-            logo
+        <div class="logo">
+            <img src="https://nextindustry.net/wp-content/uploads/2018/01/Logo_TV_2015.png" alt="Logo">
         </div>
         <ul>
-            <li v-for="option in options">
+            <li v-for="option in store.options">
                 {{ option.name }}
             </li>
             <li>
@@ -44,13 +29,22 @@ export default {
 
 <style scoped lang="scss">
 .box {
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
     ul {
-        list-style-type: none;
         display: flex;
         align-items: center;
         gap: 35px;

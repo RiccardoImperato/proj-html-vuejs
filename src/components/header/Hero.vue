@@ -31,6 +31,7 @@ export default {
     padding-bottom: 200px;
 
     h1 {
+        font-weight: 800;
         font-size: 54px;
         color: #fff;
     }
