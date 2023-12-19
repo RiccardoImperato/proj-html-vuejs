@@ -9,16 +9,26 @@ export default {
     <div class="container">
         <div class="banner box">
             <div>
-                i - Open Hours: Mon - Sat - 9:00 - 18:00
+                <font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: Mon - Sat - 9:00 - 18:00
             </div>
             <ul>
-                <li>tel</li>
-                <li>e-mail</li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-phone" /> +1 (305) 1234-5678
+                </li>
+                <li>
+                    <font-awesome-icon icon="fa-solid fa-envelope" /> hello@example.com
+                </li>
                 <li>
                     <ul class="socials">
-                        <li>i</li>
-                        <li>i</li>
-                        <li>i</li>
+                        <li>
+                            <font-awesome-icon icon="fa-brands fa-facebook" />
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-brands fa-twitter" />
+                        </li>
+                        <li>
+                            <font-awesome-icon icon="fa-brands fa-linkedin" />
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -28,18 +38,19 @@ export default {
 
 <style scoped lang="scss">
 .container {
-    color: #fff;
+    color: #c0c3d0;
     background-color: #24333d;
 
     .banner {
-        padding: 20px 0;
+        padding: 15px 0;
         display: flex;
         justify-content: space-between;
 
         ul {
             list-style-type: none;
             display: flex;
-            gap: 35px;
+            align-items: center;
+            gap: 30px;
         }
     }
 }
