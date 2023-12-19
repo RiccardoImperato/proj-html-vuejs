@@ -1,6 +1,27 @@
 <script >
 
 export default {
+    data() {
+        return {
+            options: [
+                {
+                    "name": "home"
+                },
+                {
+                    "name": "about"
+                },
+                {
+                    "name": "services"
+                },
+                {
+                    "name": "pricing"
+                },
+                {
+                    "name": "blog"
+                },
+            ]
+        }
+    }
 
 }
 </script>
@@ -11,20 +32,8 @@ export default {
             logo
         </div>
         <ul>
-            <li>
-                menu
-            </li>
-            <li>
-                menu
-            </li>
-            <li>
-                menu
-            </li>
-            <li>
-                menu
-            </li>
-            <li>
-                menu
+            <li v-for="option in options">
+                {{ option.name }}
             </li>
             <li>
                 <button class="btn-primary">get in touch</button>
