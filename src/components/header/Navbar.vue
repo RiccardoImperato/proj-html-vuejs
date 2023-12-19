@@ -21,7 +21,7 @@ export default {
                 {{ option.name }}
             </li>
             <li>
-                <button class="btn-primary">get in touch</button>
+                <button class="btn btn-primary">get in touch</button>
             </li>
         </ul>
     </div>

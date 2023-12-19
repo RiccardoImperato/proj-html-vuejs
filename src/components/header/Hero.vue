@@ -17,8 +17,8 @@ export default {
             Successfull strategies require data analysis, creativity and customer focus, taking advantage of the lastest
             technologies to offer excellent services.
         </p>
-        <button class="btn-primary">Get in touch</button>
-        <button class="btn-secondary">Read more</button>
+        <button class="btn btn-primary">Get in touch</button>
+        <button class="btn btn-secondary">Read more</button>
     </div>
 </template>
 
