@@ -37,8 +37,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../../assets/scss/_partials/variables.scss' as *;
+
 .container {
-    color: #c0c3d0;
+    color: $font-color;
     background-color: #24333d;
 
     .banner {

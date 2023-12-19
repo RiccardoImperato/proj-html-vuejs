@@ -19,8 +19,21 @@ export default {
 <template>
     <header>
         <Banner />
-        <Hero />
+        <div class="hero">
+            <Hero />
+        </div>
     </header>
 </template>
 
-<style></style>
+<style scoped lang="scss">
+header {
+
+    .hero {
+        background-color: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    background-image: url(../../assets/img/hero-image.png);
+    background-size: cover;
+    background-position: center;
+}
+</style>

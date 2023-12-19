@@ -2,7 +2,8 @@ import { createApp } from 'vue'
 import '../src/assets/scss/style.scss'
 import App from './App.vue'
 /* Font Open sans */
-import "@fontsource/open-sans"
+import "@fontsource/open-sans" // Defaults weight 400
+import "@fontsource/open-sans/800.css" // Bolder weight
 /* import fontawesome*/
 import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
@@ -13,9 +14,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
-
-
 
 library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin)
 
