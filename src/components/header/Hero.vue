@@ -12,7 +12,7 @@ export default {
 <template>
     <Navbar />
     <div class="box-small">
-        <h1>Lead ~ Customers</h1>
+        <h1>Lead ~ <span>Customers</span></h1>
         <p>
             Successfull strategies require data analysis, creativity and customer focus, taking advantage of the lastest
             technologies to offer excellent services.
@@ -34,11 +34,16 @@ export default {
         font-weight: 800;
         font-size: 54px;
         color: #fff;
+
+        span {
+            padding: 0 10px;
+            background-color: $title-bg-color;
+        }
     }
 
     p {
         padding: 40px 0;
-        color: $font-color;
+        color: $primary-font-color;
     }
 
     button {
