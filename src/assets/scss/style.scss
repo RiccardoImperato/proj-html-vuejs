@@ -93,6 +93,7 @@ ul {
     padding: 40px 50px;
     width: calc((100% - 40px) / 3);
     border-radius: 5px;
+    transition: all 0.4s;
 
     &:hover {
         scale: 1.05;
