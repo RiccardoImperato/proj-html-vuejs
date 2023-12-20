@@ -71,7 +71,6 @@ export default {
 
     .left {
         width: 50%;
-        margin-right: 30px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;

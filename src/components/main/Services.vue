@@ -107,6 +107,10 @@ export default {
             .card {
                 background-color: #19191f;
 
+                &:hover span {
+                    color: #fff;
+                }
+
                 span {
                     font-size: 25px;
                     color: $primary-color;
