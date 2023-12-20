@@ -56,14 +56,12 @@ ul {
 
 .card {
     color: $card-font-color;
-    margin: 15px;
     padding: 40px;
-    width: calc((100% / 3) - 30px);
+    width: calc((100% - 40px) / 3);
     border-radius: 5px;
-    background-color: #fff;
 
     &:hover {
-        scale: 1.1;
+        scale: 1.05;
     }
 
     h3 {

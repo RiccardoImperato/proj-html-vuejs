@@ -44,9 +44,14 @@ export default {
 .box {
     padding: 100px 0;
 
+    .card {
+        background-color: #fff;
+    }
+
     ul {
         display: flex;
         flex-wrap: wrap;
+        gap: 20px;
 
         .icon {
             height: 50px;
