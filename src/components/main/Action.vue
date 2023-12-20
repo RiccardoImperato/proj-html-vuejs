@@ -51,7 +51,6 @@ export default {
     ul {
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
 
         .icon {
             height: 50px;

@@ -77,8 +77,6 @@ export default {
         padding: 130px 0;
 
         h2 {
-            font-size: 35px;
-            font-weight: 800;
             margin: 30px 0;
 
             span {

@@ -81,8 +81,6 @@ export default {
             margin-top: 100px;
 
             h2 {
-                font-size: 35px;
-                font-weight: 800;
                 margin: 25px 0;
                 color: $card-font-color;
 
@@ -103,7 +101,6 @@ export default {
 
             ul {
                 flex-wrap: wrap;
-                gap: 20px;
 
                 li {
                     margin-bottom: 50px;
