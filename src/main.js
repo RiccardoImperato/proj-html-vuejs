@@ -28,8 +28,12 @@ import { faChartSimple } from '@fortawesome/free-solid-svg-icons'
 import { faPlane } from '@fortawesome/free-solid-svg-icons'
 import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
 import { faInbox } from '@fortawesome/free-solid-svg-icons'
+import { faRocket } from '@fortawesome/free-solid-svg-icons'
+import { faGem } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faXmark } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUserGroup, faChartPie, faGauge, faAward, faLock, faPenToSquare, faGraduationCap, faNetworkWired, faBriefcase, faChartSimple, faPlane, faEarthEurope, faInbox)
+library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUserGroup, faChartPie, faGauge, faAward, faLock, faPenToSquare, faGraduationCap, faNetworkWired, faBriefcase, faChartSimple, faPlane, faEarthEurope, faInbox, faRocket, faGem, faCheck, faXmark)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

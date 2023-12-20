@@ -10,6 +10,21 @@
 
 /*/ Reset */
 
+/* Typo */
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.small-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+/*/ Typo */
+
 /* Common */
 
 body {
@@ -19,7 +34,12 @@ body {
 ul {
     list-style-type: none;
     display: flex;
+    gap: 20px;
 }
+
+/*/ Common */
+
+/* Boxes */
 
 .box {
     max-width: 1140px;
@@ -27,9 +47,14 @@ ul {
 }
 
 .box-small {
+    text-align: center;
     max-width: 700px;
     margin: 0 auto;
 }
+
+/*/ Boxes */
+
+/* Buttons */
 
 .btn {
     all: unset;
@@ -59,9 +84,13 @@ ul {
     }
 }
 
+/*/ Buttons */
+
+/* Card */
+
 .card {
     color: $card-font-color;
-    padding: 35px;
+    padding: 40px 50px;
     width: calc((100% - 40px) / 3);
     border-radius: 5px;
 
@@ -76,10 +105,4 @@ ul {
     }
 }
 
-.small-title {
-    font-size: 13px;
-    text-transform: uppercase;
-    color: $primary-color;
-}
-
-/*/ Common */
+/*/ Card */

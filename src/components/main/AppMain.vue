@@ -3,12 +3,14 @@ import { store } from '../../store';
 import Action from './Action.vue';
 import Company from './Company.vue';
 import Services from './Services.vue';
+import Prices from './Prices.vue';
 
 export default {
     components: {
         Action,
         Company,
-        Services
+        Services,
+        Prices
     },
     data() {
         return {
@@ -23,6 +25,7 @@ export default {
         <Action />
         <Company />
         <Services />
+        <Prices />
     </main>
 </template>
 
