@@ -138,12 +138,13 @@ section {
     .box {
         .card {
             background-color: #fff;
+            position: relative;
 
             .pop {
                 width: 70px;
-                position: relative;
-                left: - 50px;
-                top: -30px;
+                position: absolute;
+                left: 0;
+                top: 10px;
                 color: #fff;
                 padding: 10px 5px;
                 font-size: 14px;
