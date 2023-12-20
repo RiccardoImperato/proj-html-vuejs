@@ -104,11 +104,11 @@ export default {
 
             ul {
                 flex-wrap: wrap;
+                gap: 20px;
 
                 li {
-                    margin-right: 15px;
                     margin-bottom: 50px;
-                    width: calc((100% / 2) - 15px);
+                    width: calc((100% - 40px) / 2);
 
                     span {
                         font-size: 20px;
