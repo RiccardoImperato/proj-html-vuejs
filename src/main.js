@@ -22,9 +22,14 @@ import { faAward } from '@fortawesome/free-solid-svg-icons'
 import { faLock } from '@fortawesome/free-solid-svg-icons'
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+import { faNetworkWired } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faChartSimple } from '@fortawesome/free-solid-svg-icons'
+import { faPlane } from '@fortawesome/free-solid-svg-icons'
+import { faEarthEurope } from '@fortawesome/free-solid-svg-icons'
+import { faInbox } from '@fortawesome/free-solid-svg-icons'
 
 
-
-library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUserGroup, faChartPie, faGauge, faAward, faLock, faPenToSquare, faGraduationCap)
+library.add(faClock, faPhone, faEnvelope, faFacebook, faTwitter, faLinkedin, faUserGroup, faChartPie, faGauge, faAward, faLock, faPenToSquare, faGraduationCap, faNetworkWired, faBriefcase, faChartSimple, faPlane, faEarthEurope, faInbox)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
