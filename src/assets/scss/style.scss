@@ -18,6 +18,7 @@ body {
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 .box {
@@ -70,6 +71,12 @@ ul {
         font-weight: bolder;
         margin: 20px 0;
     }
+}
+
+.small-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: $primary-color;
 }
 
 /*/ Common */

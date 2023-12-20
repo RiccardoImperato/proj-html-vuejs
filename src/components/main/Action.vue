@@ -22,7 +22,7 @@ export default {
                 </div>
                 <h3>Core Business</h3>
                 <p>
-                    It takes innovative approaches to trnsform, modernize, and run existing platforms.
+                    It takes innovative approaches to transform, modernize, and run existing platforms.
                 </p>
             </li>
             <li class="card">
@@ -60,7 +60,7 @@ export default {
         }
 
         p {
-            color: #606d75;
+            color: $secondary-font-color;
             margin-bottom: 20px;
         }
     }

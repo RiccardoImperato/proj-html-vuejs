@@ -45,7 +45,7 @@ export default {
 @use '../../assets/scss/_partials/variables.scss' as *;
 
 .container {
-    color: $font-color;
+    color: $primary-font-color;
     background-color: #24333d;
 
     .banner {
@@ -54,7 +54,6 @@ export default {
         justify-content: space-between;
 
         ul {
-            display: flex;
             align-items: center;
             gap: 30px;
         }
