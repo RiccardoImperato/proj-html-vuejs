@@ -1,10 +1,12 @@
 <script >
 import { store } from '../../store';
 import Action from './Action.vue';
+import Company from './Company.vue';
 
 export default {
     components: {
-        Action
+        Action,
+        Company
     },
     data() {
         return {
@@ -17,6 +19,7 @@ export default {
 <template>
     <main>
         <Action />
+        <Company />
     </main>
 </template>
 
