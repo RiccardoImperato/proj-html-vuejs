@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section class="container">
         <div class="box-small">
             <h4 class="small-title">Monthly plans</h4>
             <h2><span>Pricing</span> Table</h2>
@@ -25,7 +25,7 @@ export default {
                     <div class="title">
                         <span><font-awesome-icon icon="fa-solid fa-rocket" /></span>
                         <h3>Standard</h3>
-                        <div class="price">$ <span>490</span>/ mo</div>
+                        <div class="price">$ <span>490</span> / mo</div>
                     </div>
                     <div class="feat">
                         <List />
@@ -55,7 +55,7 @@ export default {
                     <div class="title">
                         <span><font-awesome-icon icon="fa-solid fa-briefcase" /></span>
                         <h3>Professional</h3>
-                        <div class="price">$ <span>890</span>/ mo</div>
+                        <div class="price">$ <span>890</span> / mo</div>
                     </div>
                     <div class="feat">
                         <List />
@@ -82,7 +82,7 @@ export default {
                     <div class="title">
                         <span><font-awesome-icon icon="fa-solid fa-gem" /></span>
                         <h3>Ultimate</h3>
-                        <div class="price">$ <span>1.390</span>/ mo</div>
+                        <div class="price">$ <span>1.390</span> / mo</div>
                     </div>
                     <div class="feat">
                         <List />
@@ -113,7 +113,7 @@ export default {
 <style scoped lang="scss">
 @use '../../assets/scss/_partials/variables.scss' as *;
 
-section {
+.container {
     padding: 130px 0;
     background-color: $primary-bg;
 
@@ -121,6 +121,7 @@ section {
 
         h2 {
             margin: 35px 0;
+            color: $card-font-color;
 
             span {
                 padding: 0 10px;
@@ -141,12 +142,12 @@ section {
             position: relative;
 
             .pop {
-                width: 70px;
+                width: 20%;
                 position: absolute;
                 left: 0;
                 top: 10px;
                 color: #fff;
-                padding: 10px 5px;
+                padding: 12px 8px;
                 font-size: 14px;
                 background-color: $primary-color;
                 border-top-right-radius: 50%;
