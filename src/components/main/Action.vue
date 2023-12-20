@@ -13,7 +13,7 @@ export default {
                 </div>
                 <h3>Human capital</h3>
                 <p>
-                    Humanizing business : Harness the power of technology to improve the way people work.
+                    Humanizing business: Harness the power of technology to improve the way people work.
                 </p>
             </li>
             <li class="card">
