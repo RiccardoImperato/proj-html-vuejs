@@ -18,9 +18,9 @@ export default {
             <h4 class="small-title">Our business areas</h4>
             <h2>Exellence in <span>Services</span></h2>
             <div class="info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus corrupti quibusdam sunt hic
-                    quidem cum maiores dolorem inventore esse, deleniti possimus mollitia quasi illo quos iusto quae facilis
-                    molestiae!
+                <p>
+                    We are leaders in providing consultancy services whit a set of cutting-edge technologies and a team of
+                    experienced and renowned professionals. These are some options that you can hire.
                 </p>
                 <button class="btn btn-secondary">See all</button>
             </div>
