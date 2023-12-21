@@ -12,6 +12,10 @@
 
 /* Typo */
 
+body {
+    font-family: "Open Sans";
+}
+
 h2 {
     font-size: 40px;
     font-weight: 800;
@@ -23,18 +27,25 @@ h2 {
     color: $primary-color;
 }
 
+select {
+    font-family: "Open Sans";
+}
+
 /*/ Typo */
 
 /* Common */
-
-body {
-    font-family: "Open Sans";
-}
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+}
+
+.input {
+    all: unset;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 /*/ Common */
