@@ -173,6 +173,17 @@ export default {
             }
         }
     }
-
 }
+
+/* Media queries */
+
+@media screen and (max-width:1180px) {
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Media queries */
 </style>

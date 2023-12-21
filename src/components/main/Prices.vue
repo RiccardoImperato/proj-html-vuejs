@@ -49,7 +49,7 @@ export default {
                 </li>
                 <li class="card">
                     <div class="pop">
-                        Most Popular
+                        <span>Most Popular</span>
                     </div>
                     <div class="title">
                         <span><font-awesome-icon icon="fa-solid fa-briefcase" /></span>
@@ -141,16 +141,20 @@ export default {
             position: relative;
 
             .pop {
-                width: 20%;
+                max-width: 60px;
                 position: absolute;
                 left: 0;
                 top: 10px;
                 color: #fff;
-                padding: 12px 8px;
-                font-size: 14px;
+                padding: 12px 5px;
+                font-size: 13px;
                 background-color: $primary-color;
                 border-top-right-radius: 50%;
                 border-bottom-right-radius: 50%;
+            }
+
+            .icon {
+                color: $primary-color;
             }
 
             .title {
@@ -191,6 +195,20 @@ export default {
             }
         }
     }
-
 }
+
+/* Media queries */
+
+@media screen and (max-width:1180px) {
+
+    .pop {
+        color: #fff;
+        padding: 12px 8px;
+        font-size: 14px;
+        background-color: $primary-color;
+
+    }
+}
+
+/* Media queries */
 </style>

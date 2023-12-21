@@ -87,6 +87,7 @@ export default {
 
         .info {
             display: flex;
+            align-items: center;
 
             p {
                 color: $primary-font-color;

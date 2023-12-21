@@ -64,4 +64,16 @@ export default {
         }
     }
 }
+
+/* Media queries */
+
+@media screen and (max-width:1180px) {
+
+    .banner.box {
+        padding: 15px 20px;
+    }
+
+}
+
+/*/ Media queries */
 </style>

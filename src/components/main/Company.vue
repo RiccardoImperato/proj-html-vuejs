@@ -138,4 +138,27 @@ export default {
         }
     }
 }
+
+/* Media queries */
+
+@media screen and (max-width:1180px) {
+
+    .container {
+        flex-direction: column;
+        padding: 0;
+
+        .left,
+        .right {
+            width: 100%;
+        }
+
+        .left {
+            align-items: center;
+            padding: 0;
+        }
+    }
+
+}
+
+/* Media queries */
 </style>

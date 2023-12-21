@@ -69,4 +69,12 @@ export default {
         }
     }
 }
+
+@media screen and (max-width:1180px) {
+
+    .box {
+        padding: 100px 20px;
+    }
+
+}
 </style>

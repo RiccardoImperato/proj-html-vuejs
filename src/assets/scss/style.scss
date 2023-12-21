@@ -120,3 +120,23 @@ ul {
 }
 
 /*/ Card */
+
+/* Media queries */
+
+@media screen and (max-width:1180px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    section,
+    .box {
+        padding: 0 20px;
+    }
+}
+
+/*/ Media queries */
