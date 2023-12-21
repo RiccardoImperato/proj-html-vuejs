@@ -16,7 +16,7 @@ export default {
             <div class="info">
                 <img src="../../assets/img/logo_48.png" alt="Logo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    A Function HTML Template for Corporate and Business.
                 </p>
                 <ul>
                     <li>
@@ -142,6 +142,5 @@ export default {
             }
         }
     }
-
 }
 </style>
