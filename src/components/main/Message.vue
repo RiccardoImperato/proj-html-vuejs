@@ -185,4 +185,28 @@ export default {
         }
     }
 }
+
+/* Media queries */
+
+@media screen and (max-width:768px) {
+
+    .container {
+        .box {
+            padding: 100px 0;
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                padding-right: 0;
+                margin-bottom: 40px;
+            }
+
+            .right {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*/ Media queries */
 </style>

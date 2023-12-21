@@ -77,4 +77,17 @@ export default {
     }
 
 }
+
+@media screen and (max-width:768px) {
+
+    .card {
+        text-align: center;
+        width: 100%;
+
+        .icon {
+            margin: 0 auto;
+        }
+    }
+
+}
 </style>

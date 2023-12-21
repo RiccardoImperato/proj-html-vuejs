@@ -70,4 +70,26 @@ export default {}
         }
     }
 }
+
+/* Media queries */
+
+@media screen and (max-width:768px) {
+
+    .container {
+        padding: 0;
+
+        .box {
+            padding: 100px 40px;
+            flex-direction: column;
+
+            .left,
+            .right {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+/* Media queries */
 </style>

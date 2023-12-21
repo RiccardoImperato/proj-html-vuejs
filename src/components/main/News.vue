@@ -185,5 +185,16 @@ export default {
     }
 }
 
+@media screen and (max-width:768px) {
+
+    ul {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+        }
+    }
+}
+
 /* Media queries */
 </style>

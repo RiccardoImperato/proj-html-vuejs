@@ -119,4 +119,23 @@ export default {}
 
     }
 }
+
+/* Media queries */
+
+@media screen and (max-width:768px) {
+
+    .card {
+
+        p {
+            display: none;
+        }
+
+        button {
+            text-align: center;
+        }
+    }
+
+}
+
+/*/ Media queries */
 </style>

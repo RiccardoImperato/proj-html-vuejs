@@ -143,4 +143,37 @@ export default {
         }
     }
 }
+
+
+/* Media queries */
+
+@media screen and (max-width:768px) {
+
+
+    .box {
+        padding: 100px 0;
+        flex-direction: column;
+        align-items: center;
+
+        .info {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+
+        .feat {
+            ul {
+                flex-direction: column;
+
+                li {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+}
+
+/*/ Media queries */
 </style>
