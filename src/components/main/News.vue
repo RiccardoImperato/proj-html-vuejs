@@ -21,10 +21,10 @@ export default {
                     <div class="layover">
                         <div class="hover">
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-user" /> Andrea Miller
+                                <font-awesome-icon icon="fa-solid fa-user" /> <span>Andrea Miller</span>
                             </div>
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-clock" /> 2 days ago
+                                <font-awesome-icon icon="fa-solid fa-clock" /> <span>2 days ago</span>
                             </div>
                         </div>
                         <div class="title">
@@ -38,10 +38,10 @@ export default {
                     <div class="layover">
                         <div class="hover">
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-user" /> Andrea Miller
+                                <font-awesome-icon icon="fa-solid fa-user" /> <span>Andrea Miller</span>
                             </div>
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-clock" /> 2 days ago
+                                <font-awesome-icon icon="fa-solid fa-clock" /> <span>2 days ago</span>
                             </div>
                         </div>
                         <div class="title">
@@ -55,10 +55,10 @@ export default {
                     <div class="layover">
                         <div class="hover">
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-user" /> Andrea Miller
+                                <font-awesome-icon icon="fa-solid fa-user" /> <span>Andrea Miller</span>
                             </div>
                             <div>
-                                <font-awesome-icon icon="fa-solid fa-clock" /> 2 days ago
+                                <font-awesome-icon icon="fa-solid fa-clock" /> <span>2 days ago</span>
                             </div>
                         </div>
                         <div class="title">
@@ -152,6 +152,10 @@ export default {
                     font-size: 14px;
                     opacity: 0;
                     transition: all 0.5s;
+
+                    span {
+                        margin-left: 5px;
+                    }
                 }
 
                 &:hover .hover {

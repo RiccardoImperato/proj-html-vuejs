@@ -14,14 +14,14 @@ export default {
     <div class="container">
         <div class="banner box">
             <div>
-                <font-awesome-icon icon="fa-solid fa-clock" /> Open Hours: Mon - Sat - 9:00 - 18:00
+                <font-awesome-icon icon="fa-solid fa-clock" /> <span>Open Hours: Mon - Sat - 9:00 - 18:00</span>
             </div>
             <ul>
                 <li>
-                    <font-awesome-icon icon="fa-solid fa-phone" /> {{ store.contatcs.tel }}
+                    <font-awesome-icon icon="fa-solid fa-phone" /> <span>{{ store.contatcs.tel }}</span>
                 </li>
                 <li>
-                    <font-awesome-icon icon="fa-solid fa-envelope" /> {{ store.contatcs.email }}
+                    <font-awesome-icon icon="fa-solid fa-envelope" /> <span>{{ store.contatcs.email }}</span>
                 </li>
                 <li>
                     <ul class="socials">
@@ -52,6 +52,10 @@ export default {
         padding: 15px 0;
         display: flex;
         justify-content: space-between;
+
+        span {
+            margin-left: 10px;
+        }
 
         ul {
             align-items: center;
