@@ -5,6 +5,8 @@ import Company from './Company.vue';
 import Services from './Services.vue';
 import Prices from './Prices.vue';
 import News from './News.vue';
+import Newsletter from './Newsletter.vue';
+import Message from './Message.vue';
 
 export default {
     components: {
@@ -12,7 +14,9 @@ export default {
         Company,
         Services,
         Prices,
-        News
+        News,
+        Newsletter,
+        Message
     },
     data() {
         return {
@@ -29,6 +33,8 @@ export default {
         <Services />
         <Prices />
         <News />
+        <Newsletter />
+        <Message />
     </main>
 </template>
 
