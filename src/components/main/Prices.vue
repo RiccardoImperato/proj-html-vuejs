@@ -14,9 +14,8 @@ export default {
             <h4 class="small-title">Monthly plans</h4>
             <h2><span>Pricing</span> Table</h2>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit autem magni ducimus deleniti, dicta
-                mollitia ea assumenda culpa inventore nobis distinctio dolores ex earum totam, tenetur dolorum beatae
-                repellendus aliquid!
+                We can help you deliver and execute your future, whenever you compete, using the lastest technologies, from
+                strategy development to implementation.
             </p>
         </div>
         <div class="box">
