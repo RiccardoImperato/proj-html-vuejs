@@ -12,7 +12,8 @@
 
 /* Typo */
 
-body {
+body,
+select {
     font-family: "Open Sans";
 }
 
@@ -25,10 +26,6 @@ h2 {
     font-size: 13px;
     text-transform: uppercase;
     color: $primary-color;
-}
-
-select {
-    font-family: "Open Sans";
 }
 
 /*/ Typo */
