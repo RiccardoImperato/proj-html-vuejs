@@ -54,7 +54,7 @@ export default {
                     <li class="card">
                         <h3>Services</h3>
                         <ul>
-                            <li v-for="element in store.about">
+                            <li v-for="element in store.services">
                                 <font-awesome-icon icon="fa-solid fa-chevron-right" />
                                 <a href="#">{{ element.name }}</a>
                             </li>
@@ -63,7 +63,7 @@ export default {
                     <li class="card">
                         <h3>Support</h3>
                         <ul>
-                            <li v-for="element in store.about">
+                            <li v-for="element in store.support">
                                 <font-awesome-icon icon="fa-solid fa-chevron-right" />
                                 <a href="#">{{ element.name }}</a>
                             </li>
