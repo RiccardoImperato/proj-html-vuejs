@@ -13,8 +13,8 @@ export default {}
                 </p>
             </div>
             <div class="right">
-                <input class="input" type="text" placeholder="Name">
-                <input class="input" type="email" placeholder="Email">
+                <input class="input" name="name" type="text" placeholder="Name">
+                <input class="input" name="email" type="email" placeholder="Email">
                 <button class="btn btn-primary" type="button">Subscribe</button>
             </div>
         </div>
