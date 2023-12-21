@@ -11,8 +11,8 @@ export default {
                 <h4 class="small-title">About the company</h4>
                 <h2><span>The</span> Company</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam veniam natus ab, ut rerum porro
-                    cupiditate fuga! Deserunt a culpa ut asperiores, fuga quidem eveniet sint magni nesciunt earum esse.
+                    For 12 years we have been providing audit and warranty, financial advice, risk advice, taxes and related
+                    services to select client.
                 </p>
             </div>
             <div class="values">
@@ -67,6 +67,7 @@ export default {
 
 .container {
     display: flex;
+    gap: 40px;
     background-color: #fff;
 
     .left {
