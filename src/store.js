@@ -23,6 +23,26 @@ export const store = reactive({
             "name": "blog"
         },
     ],
+    about: [
+        {
+            "name": "The Company",
+        },
+        {
+            "name": "Insitutional",
+        },
+        {
+            "name": "Social & Events",
+        },
+        {
+            "name": "Innovation",
+        },
+        {
+            "name": "Enviorment",
+        },
+        {
+            "name": "Technologies",
+        },
+    ],
     services: [
         {
             "name": "Audit & Assurance",
@@ -41,6 +61,26 @@ export const store = reactive({
         },
         {
             "name": "Regulatory Risk",
+        },
+    ],
+    support: [
+        {
+            "name": "Responsability",
+        },
+        {
+            "name": "Terms of Use",
+        },
+        {
+            "name": "About Cookies",
+        },
+        {
+            "name": "Privacy Policy",
+        },
+        {
+            "name": "Accessibility",
+        },
+        {
+            "name": "Information",
         },
     ]
 })
