@@ -80,7 +80,6 @@ export default {
 
 .box {
     display: flex;
-    gap: 50px;
     color: $primary-font-color;
     padding: 130px 0;
 
@@ -89,6 +88,7 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        padding-right: 40px;
 
         img {
             height: 50px;

@@ -67,19 +67,19 @@ export default {
 
 .container {
     display: flex;
-    gap: 40px;
     background-color: #fff;
 
     .left {
         width: 50%;
+        padding-right: 40px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        gap: 75px;
 
         .title {
             width: 50%;
             margin-top: 100px;
+            margin-bottom: 75px;
 
             h2 {
                 margin: 25px 0;

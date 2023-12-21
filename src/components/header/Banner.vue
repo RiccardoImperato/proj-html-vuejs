@@ -58,6 +58,7 @@ export default {
         }
 
         ul {
+            flex-wrap: wrap;
             align-items: center;
             gap: 30px;
         }

@@ -77,11 +77,11 @@ export default {
 
     .box {
         display: flex;
-        gap: 50px;
         padding: 130px 0;
 
         .left {
             width: 70%;
+            padding-right: 40px;
 
             .title {
                 margin-bottom: 50px;
@@ -141,6 +141,7 @@ export default {
             display: flex;
             flex-direction: column;
             gap: 30px;
+            overflow: hidden;
 
             h3 {
                 font-size: 25px;
@@ -174,7 +175,7 @@ export default {
 
             button {
                 color: $primary-color;
-                width: 100px;
+                max-width: 80px;
                 text-align: center;
 
                 &:hover {
