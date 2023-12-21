@@ -133,7 +133,7 @@ export default {
                 display: block;
 
                 li {
-                    margin: 15px 0;
+                    margin: 10px 0;
 
                     span {
                         margin-left: 10px;
