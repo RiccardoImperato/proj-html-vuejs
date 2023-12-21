@@ -18,7 +18,7 @@ export default {
         </div>
         <ul>
             <li v-for="option in store.options">
-                {{ option.name }}
+                <a href="#">{{ option.name }}</a>
             </li>
             <li>
                 <button class="btn btn-primary">get in touch</button>

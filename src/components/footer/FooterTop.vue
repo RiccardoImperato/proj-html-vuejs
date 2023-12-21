@@ -47,7 +47,7 @@ export default {
                         <ul>
                             <li v-for="element in store.about">
                                 <font-awesome-icon icon="fa-solid fa-chevron-right" />
-                                <span>{{ element.name }}</span>
+                                <a href="#">{{ element.name }}</a>
                             </li>
                         </ul>
                     </li>
@@ -56,7 +56,7 @@ export default {
                         <ul>
                             <li v-for="element in store.about">
                                 <font-awesome-icon icon="fa-solid fa-chevron-right" />
-                                <span>{{ element.name }}</span>
+                                <a href="#">{{ element.name }}</a>
                             </li>
                         </ul>
                     </li>
@@ -65,7 +65,7 @@ export default {
                         <ul>
                             <li v-for="element in store.about">
                                 <font-awesome-icon icon="fa-solid fa-chevron-right" />
-                                <span>{{ element.name }}</span>
+                                <a href="#">{{ element.name }}</a>
                             </li>
                         </ul>
                     </li>
@@ -135,7 +135,7 @@ export default {
                 li {
                     margin: 10px 0;
 
-                    span {
+                    a {
                         margin-left: 10px;
                     }
                 }
