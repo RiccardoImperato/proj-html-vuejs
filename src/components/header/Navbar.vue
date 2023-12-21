@@ -14,7 +14,7 @@ export default {
 <template>
     <div class="box">
         <div class="logo">
-            <img src="https://nextindustry.net/wp-content/uploads/2018/01/Logo_TV_2015.png" alt="Logo">
+            <img src="../../assets/img/logo_48.png" alt="Logo">
         </div>
         <ul>
             <li v-for="option in store.options">
@@ -35,8 +35,8 @@ export default {
     align-items: center;
 
     .logo {
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
 
     img {
