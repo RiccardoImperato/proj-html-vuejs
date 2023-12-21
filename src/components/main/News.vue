@@ -84,7 +84,7 @@ export default {
     }
 
     h2 {
-        margin: 40px 0;
+        margin: 30px 0;
         color: $card-font-color;
 
         span {
@@ -97,6 +97,7 @@ export default {
     .info {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         p {
             color: $secondary-font-color;
@@ -108,7 +109,7 @@ export default {
     }
 
     ul {
-        margin-top: 40px;
+        margin-top: 30px;
 
         .card {
             padding: 0;

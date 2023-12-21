@@ -114,7 +114,7 @@ export default {
 @use '../../assets/scss/_partials/variables.scss' as *;
 
 .container {
-    padding: 130px 0;
+    padding: 100px 0;
     background-color: $primary-bg;
 
     .box-small {
