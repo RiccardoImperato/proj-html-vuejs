@@ -32,7 +32,7 @@ export default {
                         <option>Option 3</option>
                     </select>
                     <textarea name="message-text" placeholder="Message"></textarea>
-                    <button class="btn btn-primary" type="button">Subscribe</button>
+                    <button class="btn btn-primary" type="button">Send</button>
                 </div>
             </div>
             <div class="right">

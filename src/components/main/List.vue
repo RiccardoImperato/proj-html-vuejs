@@ -4,11 +4,11 @@ export default {}
 
 <template>
     <ul>
-        <li><font-awesome-icon icon="fa-solid fa-chevron-right" /><span> Standard Accounting</span></li>
-        <li><font-awesome-icon icon="fa-solid fa-chevron-right" /> <span>Platfom Access</span></li>
-        <li><font-awesome-icon icon="fa-solid fa-chevron-right" /> <span>Business Orientation</span></li>
-        <li><font-awesome-icon icon="fa-solid fa-chevron-right" /> <span>Dedicated Consultant</span></li>
-        <li><font-awesome-icon icon="fa-solid fa-chevron-right" /> <span>Personal Assistance</span></li>
+        <li><span> Standard Accounting</span></li>
+        <li><span>Platfom Access</span></li>
+        <li><span>Business Orientation</span></li>
+        <li><span>Dedicated Consultant</span></li>
+        <li><span>Personal Assistance</span></li>
     </ul>
 </template>
 

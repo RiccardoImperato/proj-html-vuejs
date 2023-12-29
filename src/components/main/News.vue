@@ -11,7 +11,7 @@ export default {
             <h2>Latest <span>News</span></h2>
             <div class="info">
                 <p>
-                    Every week we publish content about what is the best in th business world.
+                    Every week we publish content about what is the best in the business world.
                 </p>
                 <button class="btn btn-primary">See all</button>
             </div>
